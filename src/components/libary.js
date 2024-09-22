@@ -1,9 +1,6 @@
-import style from "../style/index.css";
-
 const Libary = () => {
   return (
-    <div class={style.libary}>
-      <div>
+    <div>
         <img
           src="../../assets/public/images/1.JPEG"
           alt="anormalwebsite logo"
@@ -46,7 +43,6 @@ const Libary = () => {
           width={640}
         />
       </div>
-    </div>
   );
 };
 

@@ -24,10 +24,3 @@ body {
   margin: 0 auto;
   min-height: calc(100vh - 3.5rem);
 }
-
-.libary {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 1.5rem;
-  margin-top: 10rem;
-}
