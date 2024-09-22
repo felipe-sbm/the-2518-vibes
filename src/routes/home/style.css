@@ -1,0 +1,56 @@
+.home {
+	text-align: center;
+}
+
+.home img {
+	padding: 1.5rem;
+}
+
+.home section {
+	margin-top: 10rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 1.5rem;
+}
+
+@media (max-width: 639px) {
+	.home section {
+		margin-top: 5rem;
+		grid-template-columns: 1fr;
+		row-gap: 1rem;
+	}
+}
+
+.resource:hover {
+	border: 1px solid #000;
+}
+
+
+p.a {
+	background-color: aqua;
+	border-style: solid;
+	border-width: 3px;
+	border-color: black;
+  }
+  p.b {
+	background-color: white;
+	border-style: dashed;
+	border-width: 3px;
+	border-color: black;
+  }
+  p.c {
+	background-color: white;
+	border-style: dashed double dotted solid;
+	border-width: 3px;
+	border-color: black;
+  }
+  p.d {
+	background-color: white;
+	border-style: solid;
+	border-width: 3px;
+	border-color: red violet blue green;
+  }
+  p {
+	background-color: beige;
+	font-display: arial;
+  }
