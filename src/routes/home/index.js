@@ -1,11 +1,9 @@
-import Header from "../../components/header";
 import Libary from "../../components/libary";
 import style from "./style.css";
 
 const Home = () => {
   return (
     <div class={style.home}>
-      <Header />
       <img
         src="../../assets/the-2518-vibes.webp"
         alt="the-2518-vibes logo"

@@ -16,11 +16,35 @@ body {
   -webkit-font-smoothing: none;
   -moz-osx-font-smoothing: grayscale;
   image-rendering: pixelated;
+  background-color: antiquewhite;
 }
 
 #app > main {
   display: flex;
-  padding-top: 3.5rem;
   margin: 0 auto;
   min-height: calc(100vh - 3.5rem);
+}
+
+header {
+  background-color: #444;
+  color: white;
+  width: 100%;
+  top: 0;
+  text-align: center;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0 6rem 0 6rem;
+}
+
+header a :active {
+  color:goldenrod;
+  text-decoration: wavy;
+}
+
+header img {
+  width: 1.5rem;
 }
