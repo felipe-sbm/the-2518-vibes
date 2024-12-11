@@ -15,7 +15,7 @@ const Header = () => (
         <a>Listen music</a>
       </li>
       <li>
-        <img src="./assets/user-icons/OriginalMusicIcon.gif" />
+        <img src="./assets/user-icons/OriginalBuyIcon.gif" />
         <a>Buy the CD or DVD</a>
       </li>
       <li>
