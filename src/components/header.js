@@ -4,23 +4,23 @@ const Header = () => (
     <ul>
       <li>
         <img src="./assets/user-icons/OriginalPhotosIcon.gif" />
-        <a>Photo galery</a>
+        <a href="/photo">Photo gallery</a>
       </li>
       <li>
         <img src="./assets/user-icons/OriginalVideosIcon.gif" />
-        <a>Video galary</a>
+        <a href="/video">Video gallery</a>
       </li>
       <li>
         <img src="./assets/user-icons/OriginalMusicIcon.gif" />
-        <a>Listen music</a>
+        <a href="/music">Listen music</a>
       </li>
       <li>
         <img src="./assets/user-icons/OriginalBuyIcon.gif" />
-        <a>Buy the CD or DVD</a>
+        <a href="/buy">Buy the CD or DVD</a>
       </li>
       <li>
         <img src="./assets/user-icons/OriginalAboutIcon.gif" />
-        <a>About</a>
+        <a href="/about">About</a>
       </li>
     </ul>
   </header>
