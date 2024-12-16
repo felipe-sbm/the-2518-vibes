@@ -1,7 +1,7 @@
 import Library from "/components/library";
 import style from "./style.css";
 
-const Home = () => {
+const Photo = () => {
     return (
         <div className={style.home}>
             <img
@@ -11,14 +11,11 @@ const Home = () => {
                 width="160"
             />
             <p className={style.a}>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque
-                architecto vel corrupti aspernatur ratione harum ad et ullam labore iure
-                voluptate optio obcaecati ea, alias nemo praesentium, nam repellat
-                porro?
+            These are the vibes of the 2518. Images that remember the past and the good and bad momemories that I got.
             </p>
             <Library />
         </div>
     );
 };
 
-export default Home;
+export default Photo;

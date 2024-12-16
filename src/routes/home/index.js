@@ -1,4 +1,3 @@
-import Libary from "../../components/libary";
 import style from "./style.css";
 
 const Home = () => {
@@ -44,7 +43,6 @@ const Home = () => {
         Laboriosam voluptatem facilis, fugit dolor nam ad quo quos modi
         perferendis aspernatur.
       </p>
-      <Libary />
       <section>
         <Resource
           title="This"

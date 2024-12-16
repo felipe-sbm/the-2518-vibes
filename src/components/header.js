@@ -1,6 +1,6 @@
 const Header = () => (
   <header id="header">
-    <h1>The 2518 Vibes</h1>
+    <h1><a href="/">The 2518 Vibes</a></h1>
     <ul>
       <li>
         <img src="./assets/user-icons/OriginalPhotosIcon.gif" />
